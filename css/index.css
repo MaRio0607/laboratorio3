@@ -12,3 +12,53 @@ body {
   width: 50px;
 }
 
+
+@media (orientation: landscape) {
+
+  .navbar{
+    background-color: rgb(83, 79, 79);
+    justify-content: flex-end;
+
+  }
+
+  .hamburger{
+    display: none;
+  }
+
+  .menu{
+   color: white;
+   display: flex;
+   flex-flow: row;
+   font-weight: bold;
+   list-style-type: none;
+   padding: 5px;
+   font-size: 18px;
+   justify-content: space-evenly; 
+  }
+
+  .social{
+   display: flex;
+   flex-flow: row;
+   list-style-type: none;
+   padding: 5px;
+   justify-content: space-evenly; 
+  }
+
+  .social_icon{
+    font-size: 20;
+  }
+
+  main{
+    justify-content: space-between;
+    
+    align-items: center;
+    flex-flow:row nowrap ;
+  }
+ 
+  .product{
+    border-style:groove;
+    
+  }
+  
+}
+
