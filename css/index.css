@@ -12,8 +12,117 @@ body {
   width: 50px;
 }
 
+/*  phone */
+@media (orientation: portrait) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly ;
+  }
 
-@media (orientation: landscape) {
+  .navbar{
+    background-color: rgb(83, 79, 79);
+    justify-content: flex-end;
+
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+   }
+   .menu {
+     display: none;
+   }
+   .product {
+    border: solid;
+    text-align: center;
+    border-color: gray;
+    border-width: 1px;
+  }
+  .social {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid;
+    border-color: rgb(240, 240, 240);
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content:space-between;
+  }
+  .social_icon{
+    font-size: 20px;
+  }
+  
+}
+/*  tablets */
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+  }
+
+  .navbar{
+    background-color: rgb(83, 79, 79);
+    justify-content: flex-end;
+
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+   }
+   .menu {
+     display: none;
+   }
+   .product {
+    border: solid;
+    text-align: center;
+    border-color: rgb(240, 240, 240);
+  }
+  .social {
+    display: flex;
+    width: 750px;
+    align-items: center;
+    margin-left: 5px;
+    list-style-type: none;
+    border: solid;
+    border-color: rgb(240, 240, 240);
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content:space-between;
+  }
+
+  .social_icon{
+    font-size: 20px;
+  }
+}
+/* pantallas grandes */
+@media (min-width: 1025px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+  }
 
   .navbar{
     background-color: rgb(83, 79, 79);
@@ -36,27 +145,32 @@ body {
    justify-content: space-evenly; 
   }
 
-  .social{
-   display: flex;
-   flex-flow: row;
-   list-style-type: none;
-   padding: 5px;
-   justify-content: space-evenly; 
+  .product {
+    border: solid;
+    text-align: center;
+    padding: 5px;
+    border-color: gray;
+    border-width: 1px;
+  }
+  .social {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
-  .social_icon{
-    font-size: 20;
-  }
-
-
- 
-  .product{
-    justify-content: space-between;
+  main{
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    flex-direction:row  ;
-    border-style:groove;
-    
+    justify-content:space-between;
   }
+
   
+  .social_icon{
+    font-size: 20px;
+  }
 }
+
+
 
