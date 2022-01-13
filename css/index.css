@@ -48,14 +48,13 @@ body {
     font-size: 20;
   }
 
-  main{
-    justify-content: space-between;
-    
-    align-items: center;
-    flex-flow:row nowrap ;
-  }
+
  
   .product{
+    justify-content: space-between;
+  
+    align-items: center;
+    flex-flow:row nowrap ;
     border-style:groove;
     
   }
