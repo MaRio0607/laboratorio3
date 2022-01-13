@@ -12,8 +12,7 @@ body {
   width: 50px;
 }
 
-/*  phone */
-@media (orientation: portrait) {
+
   header {
     display: flex;
     flex-direction: column;
@@ -43,11 +42,9 @@ body {
   }
   .social {
     display: flex;
-    list-style-type: none;
     flex-direction: row;
+    list-style-type: none;
     justify-content: space-around;
-    border: solid;
-    border-color: rgb(240, 240, 240);
   }
   main{
     display: flex;
@@ -60,9 +57,8 @@ body {
     font-size: 20px;
   }
   
-}
-/*  tablets */
 
+/*  tablets */
 @media (min-width: 768px) and (max-width: 1024px)  {
   
   header {
@@ -93,13 +89,8 @@ body {
   }
   .social {
     display: flex;
-    width: 750px;
-    align-items: center;
-    margin-left: 5px;
-    list-style-type: none;
-    border: solid;
-    border-color: rgb(240, 240, 240);
     flex-direction: row;
+    list-style-type: none;
     justify-content: space-around;
   }
 
@@ -143,6 +134,7 @@ body {
    padding: 5px;
    font-size: 18px;
    justify-content: space-evenly; 
+
   }
 
   .product {
@@ -156,7 +148,7 @@ body {
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   main{
